@@ -6,4 +6,4 @@
 
 ## ✨ 기록 목록
 - [2025.10.02] [Spring Boot 입문하기 : 도서 조회](./springboot/%5B2025.10.02%5DSpring-book-search.md)
-- [2025.10.04] [Spring Boot 입문하기 : sysout의 위험과 logger 사용](./springboot/%5B2025.10.02%5DSpring-sysout-logger.md)
+- [2025.10.04] [Spring Boot 입문하기 : sysout의 위험과 logger 사용](./springboot/%5B2025.10.04%5DSpring-sysout-logger.md)
