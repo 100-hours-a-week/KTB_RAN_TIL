@@ -1,6 +1,8 @@
-### 정의
+## Reflection
 
-
+> EntityManager가 런타임 중에 리플렉션(Reflection)을 사용해서
+엔티티 객체를 생성하고 관리하려면,
+JPA 명세상 “파라미터가 없는 기본 생성자”가 반드시 존재해야 한다.
 
 * JVM 메서드 영역(Method Area)에 있는 클래스의 메타데이터(정보)를
   **런타임**에 꺼내서 사용하는 기술
@@ -80,12 +82,25 @@ Object obj = clazz.getDeclaredConstructor().newInstance();
 * **MyBatis**
   → Mapper 인터페이스 동적 프록시 생성
 
-이처럼 프레임워크는 컴파일 시점에 어떤 클래스를 사용할지 모르기 때문에,
-리플렉션으로 **런타임 유연성**을 확보한다.
 
+DB에서 조회한 데이터를 User 객체로 매핑할 때
+```
+User user = entityManager.find(User.class, 1L);
+```
+
+→ 내부적으로 new User()를 직접 쓰지 않고 Reflection으로 객체를 만들고, 필드에 값을 직접 주입(set) 합니다.
+
+[ 동작 과정 ]
+1. `EntityManager`가 “User” 엔티티 메타데이터를 확인
+2. SQL:SELECT * FROM user WHERE id = 1 실행
+3. 결과 ResultSet을 `User` 클래스로 매핑
+4. 리플렉션으로 User 객체 생성 (`newInstance()`)
+5. 조회된 값을 필드에 직접 주입
+6. EntityManager가 생성된 객체를 영속성 컨텍스트에 저장 (1차 캐시)
+7. 이후부터 `user.setName()` 하면 EntityManager가 변경 감지 (Dirty Checking)
 ---
 
-### ⚠단점
+### 단점
 
 | 항목           | 설명                                        |
 | ------------ | ----------------------------------------- |
@@ -96,7 +111,7 @@ Object obj = clazz.getDeclaredConstructor().newInstance();
 > 따라서 일반 비즈니스 코드에서는 사용하지 않고,
 > 주로 **프레임워크 내부 구현부**에서 사용된다.
 
----
+
 
 ### 리플렉션을 사용하는 이유 (핵심 요약)
 
@@ -119,9 +134,9 @@ Method Area (메타데이터 저장)
 Heap 영역 (객체 생성 및 접근)
 ```
 
----
 
-### ⚙️ 실제 코드 예시 — 메서드 접근
+
+### 실제 코드 : 메서드 접근
 
 ```java
 Class<?> clazz = Class.forName("com.example.User");
@@ -130,16 +145,3 @@ Object obj = clazz.getDeclaredConstructor().newInstance();
 
 method.invoke(obj, "채영"); // private도 접근 가능 (setAccessible(true) 시)
 ```
-
----
-
-### 회고
-
-리플렉션은 단순히 “private에도 접근 가능하다”가 아니라,
-**“프레임워크가 유연하게 동작할 수 있는 기반 기술” 이다.
-스프링, JPA, Jackson 같은 거의 모든 프레임워크가 내부적으로 이를 사용한다.
-단, 직접 사용하는 경우는 드물고 
-
-**JVM 내부 동작과 객체 생명주기**를 이해하는 데 큰 도움이 되는 기술이다.
-
-
