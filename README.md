@@ -16,6 +16,7 @@
 - [Thread, runnable](Java/Thread-Runnable.md)
 - [ExecutorService-Synchronized](Java/ExecutorService-Synchronized.md)
 - [Optional](Java/Optional.md)
+- [[Deep Dive] Java의 enum 객체는 꼭 불변인 건 아니다?](Springboot/Java-Enum-immutable.md)
 
 ### Web
 
@@ -27,6 +28,7 @@
 - [09 - Session](Web/Session.md)
 - [09-1 - Cookie vs Storage vs Session](Web/Cookie_Storage_Session.md)
 - [10 - JWT](Web/JWT.md)
+- [[Deep Dive] SSL/DLS](Web/TLS_SSL.md)
 
 ### Spring
 - [Spring Boot 입문하기 : 도서 조회](Springboot/Spring-book-search.md)
@@ -50,6 +52,5 @@
 - [연관관계 : fetch 방식 - Eager vs Lazy + N+1문제](JPA/JPA-fetch-Lazy-Eager.md)
 - [Spring Data JPA의 개념과 구조](JPA/Spring_data_jpa_repository.md)
 
-### Deep Dive
-- [[Deep Dive] Java의 enum 객체는 꼭 불변인 건 아니다?](Springboot/Java-Enum-immutable.md)
-- [[Deep Dive] SSL/DLS](Web/TLS_SSL.md)
+### JavaScript
+- [[Deep Dive] 함수선언문 vs 함수표현식 vs 화살표 함수의 호이스팅 TDZ 차이 ](JavaScript/JS_Hoisting-TDZ-Function-Types.md)
