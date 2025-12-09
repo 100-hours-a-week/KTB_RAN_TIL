@@ -56,6 +56,14 @@
 - [[Deep Dive] 함수선언문 vs 함수표현식 vs 화살표 함수의 호이스팅 TDZ 차이 ](JavaScript/JS_Hoisting-TDZ-Function-Types.md)
 
 ### React
+
+- **Fundamentals**
+    - [00 - Side Effect란 무엇인가](./React/Fundamentals/00_SideEffect.md)
+    - [01 - 순수 함수(Pure Function) 기본 개념](./React/Fundamentals/01_PureFunction.md)
+    - [02 - useEffect 의존성 배열 기본 개념](./React/Fundamentals/02_DependencyArray.md)
+    - [03 - useEffect에서 발생하는 문제와 올바른 사용법](./React/Fundamentals/03_Effect_Misuse_and_Patterns.md)
+
+    
 - **Reducer**
   - [00 - Reducer 기본 개념](./React/Reducer/00_Reducer_Basics.md)
   - [01 - 불변성과 업데이트 패턴](./React/Reducer/01_Immutability_and_Update_Patterns.md)
