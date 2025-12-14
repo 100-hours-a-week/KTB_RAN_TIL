@@ -80,10 +80,6 @@ DNS를 사람 사이의 ‘우편 시스템’에 비유할 수 있다.
 
 ---
 
-###  DNS 요청 처리 과정 (기술 단계별 설명)
-<img width="2048" height="1896" alt="Image" src="https://github.com/user-attachments/assets/b594a927-2472-4226-ac1c-cb1f54e7e83d" />
----
-
 ### 로컬 DNS란?
 
 로컬 DNS는 **사용자와 가장 가까운 DNS 서버**이다.
