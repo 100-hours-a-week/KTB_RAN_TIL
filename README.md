@@ -61,7 +61,7 @@
     - [00 - Side Effect란 무엇인가](./React/Fundamentals/00_SideEffect.md)
     - [01 - 순수 함수(Pure Function) 기본 개념](./React/Fundamentals/01_PureFunction.md)
     - [02 - useEffect 의존성 배열 기본 개념](./React/Fundamentals/02_DependencyArray.md)
-    - [03 - useEffect에서 발생하는 문제와 올바른 사용법](./React/Fundamentals/03_Effect_Misuse_and_Patterns.md)
+    - [03 - useEffect에서 발생하는 문제와 올바른 사용법](./React/Fundamentals/)
 
     
 - **Reducer**
@@ -80,6 +80,11 @@
   - [03 - React Query 캐시 메커니즘(Cache Mechanism)](./React/ReactQuery/03_RQ_CacheMechanism.md)
   - [04 - React Query의 메모리 구조 & GC(Garbage Collection)](./React/ReactQuery/04_RQ_GarbageCollection_and_Memory.md)
   - [05 - React Query 내부 구조: Action → Reducer → QueryState 흐름](./React/ReactQuery/05_RQ_Internal_Reducer.md)
+
+### Infra / Cloud
+
+- [AWS S3와 정적 배포 구조](Infra/Cloud/AWS/AWS_S3_and_Static_Deployment.md)
+- [CDN 개념과 CloudFront](Infra/Cloud/AWS/CDN_and_CloudFront_Basics.md)
 
 
 ## 🪶 Conference
