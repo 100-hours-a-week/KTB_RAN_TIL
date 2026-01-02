@@ -86,6 +86,9 @@
 - [AWS S3와 정적 배포 구조](Infra/Cloud/AWS/AWS_S3_and_Static_Deployment.md)
 - [CDN 개념과 CloudFront](Infra/Cloud/AWS/CDN_and_CloudFront_Basics.md)
 
+### Algorithm - Coding Test
+
+- [🌱 하루 한 문제 코딩테스트 챌린지!](Algorithm/README.md)
 
 ## 🪶 Conference
 
