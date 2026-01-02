@@ -77,7 +77,7 @@
 
 ### Week 10. 다이나믹 프로그래밍
 
-- [[Lv.3] 정수 삼각형](https://www.notion.so/2dcee90a967f808293ced937f5f72486?pvs=21)
+- [[Lv.3] 정수 삼각형](algorithm-til/DP/2026-01-02_programmers_lv3_정수삼각형.md)
 
 ---
 
