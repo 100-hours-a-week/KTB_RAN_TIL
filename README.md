@@ -88,7 +88,7 @@
 
 ### Algorithm - Coding Test
 
-- [🌱 하루 한 문제 코딩테스트 챌린지!](Algorithm/README.md)
+- [🌱 하루 한 문제 코딩테스트 챌린지!](https://github.com/100-hours-a-week/KTB_RAN_ALGORITHM)
 
 ## 🪶 Conference
 
