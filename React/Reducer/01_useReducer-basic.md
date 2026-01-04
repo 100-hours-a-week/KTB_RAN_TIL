@@ -146,8 +146,6 @@ flowchart TD
     REDUCER -->|increase| NEXT1[New State]
     REDUCER -->|decrease| NEXT2[New State]
 
-    NEXT1 --> STATE[State Update]
-    NEXT2 --> STATE
 
 ```
 
