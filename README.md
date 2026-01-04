@@ -89,7 +89,7 @@
 ### Algorithm - Coding Test
 
 - [🌱 하루 한 문제 코딩테스트 챌린지!](https://github.com/100-hours-a-week/KTB_RAN_ALGORITHM)
-- [스택과 큐 이해하기(stack queue)](Algorithm/stack-queue.md)
+- [스택과 큐 이해하기(stack queue) - 배열편](Algorithm/stack-queue.md)
 
 ## 🪶 Conference
 
