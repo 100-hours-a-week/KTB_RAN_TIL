@@ -65,7 +65,8 @@
 
     
 - **Reducer**
-  - [00 - Reducer 기본 개념](./React/Reducer/00_Reducer_Basics.md)
+  - [00 - Reducer 이해하기](./React/Reducer/00_Reducer_Basics.md)
+  - [01 - useReducer 사용하기](React/Reducer/01_useReducer-basic.md)
   - [01 - 불변성과 업데이트 패턴](./React/Reducer/01_Immutability_and_Update_Patterns.md)
   - [02 - 비동기 로딩 상태 관리](./React/Reducer/02_Async_Loading_State_Management.md)
   - [03 - 낙관적 업데이트(Optimistic Update)](./React/Reducer/03_Optimistic_Update.md)
@@ -89,7 +90,6 @@
 ### Algorithm - Coding Test
 
 - [🌱 하루 한 문제 코딩테스트 챌린지!](https://github.com/100-hours-a-week/KTB_RAN_ALGORITHM)
-- [스택과 큐 이해하기(stack queue) - 배열편](Algorithm/stack-queue.md)
 
 ## 🪶 Conference
 
