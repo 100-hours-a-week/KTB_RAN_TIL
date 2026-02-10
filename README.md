@@ -82,6 +82,9 @@
   - [04 - React Query의 메모리 구조 & GC(Garbage Collection)](./React/ReactQuery/04_RQ_GarbageCollection_and_Memory.md)
   - [05 - React Query 내부 구조: Action → Reducer → QueryState 흐름](./React/ReactQuery/05_RQ_Internal_Reducer.md)
 
+- **Architecture**
+  - [Single Flight 정리](./React/Architecture/Single-Flight.md)
+
 ### Infra / Cloud
 
 - [AWS S3와 정적 배포 구조](Infra/Cloud/AWS/AWS_S3_and_Static_Deployment.md)
