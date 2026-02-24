@@ -3,11 +3,13 @@
 남겨진 기록은 기억이 되어 나를 다음 행선지로 이끌어 준다.
 
 ## 📌 기록 규칙
+
 - 공식 문서 찾아보는 습관 들이기.
 
 ## ✨ Study Collections
 
 ### JAVA
+
 - [Jvm](Java/JVM.md)
 - [Garbage Collection](Java/Garbage-Collection.md)
 - [PermGen과 Metaspace](Java/PermGen-Metaspace.md)
@@ -28,14 +30,19 @@
 - [09-1 - Cookie vs Storage vs Session](Web/Cookie_Storage_Session.md)
 - [10 - JWT](Web/JWT.md)
 - [[Deep Dive] SSL/DLS](Web/TLS_SSL.md)
+- [11 - Port Forwarding (포트포워딩)](Web/Port_Forwarding.md)
+- [12 - 집 네트워크 핵심 구조: DHCP, NAT, SNAT, DNAT](Web/Home_Network_DHCP_NAT_DNAT.md)
+- [13 - LAN과 MAC 핵심 정리](Web/LAN_MAC_ARP_DHCP_Reservation.md)
 
 ### Spring
+
 - [Spring Boot 입문하기 : 도서 조회](Springboot/Spring-book-search.md)
 - [Spring Boot 입문하기 : sysout의 위험과 logger의 권장](Springboot/Spring-sysout-logger.md)
 - [Enum과 친해지기 + TS와 JAVA의 Enum](Springboot/Enum-About.md)
 - [CGLIB / Proxy Entity]() //
 
 ### Database
+
 - [NoSQL](DataBase/NoSQL.md)
 - [Index](DataBase/Index_cluster_noncluster.md)
 - [Tree : B-Tree, B+Tree](DataBase/Tree-BTree.md)
@@ -52,18 +59,18 @@
 - [Spring Data JPA의 개념과 구조](JPA/Spring_data_jpa_repository.md)
 
 ### JavaScript
+
 - [[Deep Dive] 함수선언문 vs 함수표현식 vs 화살표 함수의 호이스팅 TDZ 차이 ](JavaScript/JS_Hoisting-TDZ-Function-Types.md)
 
 ### React
 
 - **Fundamentals**
-    - [00 - Side Effect란 무엇인가](./React/Fundamentals/00_SideEffect.md)
-    - [01 - 순수 함수(Pure Function) 기본 개념](./React/Fundamentals/01_PureFunction.md)
-    - [02 - useEffect 의존성 배열 기본 개념](./React/Fundamentals/02_DependencyArray.md)
-    - [03 - useEffect에서 발생하는 문제와 올바른 사용법](./React/Fundamentals/)
-
-    
+  - [00 - Side Effect란 무엇인가](./React/Fundamentals/00_SideEffect.md)
+  - [01 - 순수 함수(Pure Function) 기본 개념](./React/Fundamentals/01_PureFunction.md)
+  - [02 - useEffect 의존성 배열 기본 개념](./React/Fundamentals/02_DependencyArray.md)
+  - [03 - useEffect에서 발생하는 문제와 올바른 사용법](./React/Fundamentals/)
 - **Reducer**
+
   - [00 - Reducer 이해하기](./React/Reducer/00_Reducer_Basics.md)
   - [01 - useReducer 사용하기](React/Reducer/01_useReducer-basic.md)
   - [01 - 불변성과 업데이트 패턴](./React/Reducer/01_Immutability_and_Update_Patterns.md)
@@ -72,8 +79,8 @@
   - [04 - React 19 – useOptimistic](./React/Reducer/04_React19_useOptimistic.md)
   - [05 - React Query vs useOptimistic 비교](./React/Reducer/05_RQ_vs_useOptimistic.md)
 
-
 - **React Query**
+
   - [00 - React Query 기본 개념 정리](./React/ReactQuery/00_RQ_Basics.md)
   - [01 - React Query의 에러 처리 & Promise 모델](./React/ReactQuery/01_RQ_Error_Handling_and_Promise_Model.md)
   - [02 - useMutation의 동작 흐름](./React/ReactQuery/02_RQ_Mutation_Flow.md)
@@ -84,6 +91,15 @@
 - **Architecture**
   - [Single Flight 정리](./React/Architecture/Single-Flight.md)
 
+### Next.js
+
+- [App Router: route 정리](./Nextjs/next-route.md)
+- [Route Group 정리](./Nextjs/routegroup.md)
+- [SSR / CSR / ISR / SSG 동작 비교](./Nextjs/SSR-CSR-ISR-SSG.md)
+- [브라우저/서버 캐시 종류 정리](./Nextjs/Cache-종류.md)
+- [TanStack, Next, App Shell 캐시 위치](./Nextjs/tanstack,next,appshell-캐시-위치.md)
+- [RSC에서 Server 안의 Client Component 실행 흐름](./Nextjs/RSC-server-client-execution-flow.md)
+
 ### Infra / Cloud
 
 - [AWS S3와 정적 배포 구조](Infra/Cloud/AWS/AWS_S3_and_Static_Deployment.md)
@@ -91,15 +107,17 @@
 
 ### Algorithm - Coding Test
 
+- [자료구조 기본: 선형 vs 비선형](./Algorithm/Linear-vs-NonLinear-DataStructure.md)
+- [스택과 큐 기본](./Algorithm/stack-queue.md)
 - [🌱 하루 한 문제 코딩테스트 챌린지!](https://github.com/100-hours-a-week/KTB_RAN_ALGORITHM)
 
 ## 🪶 Conference
 
 ### Toss
+
 - [TMC25 – 인터랙션 개발 워크플로우 분석](./Conference/Toss/TMC25_Interaction_Workflow.md)
 
-
-
 ## 🌱 UX/UI
+
 - [디자인 시스템을 언어로 이해하기](./UXUI/Design_System_Language.md)
 - [Modal UI 사용 가이드 (팝업 / 바텀시트 / 스낵바)](UXUI/Modal_UI_Guidelines.md)
