@@ -166,3 +166,8 @@
 - [디자인 시스템을 언어로 이해하기](./UXUI/Design_System_Language.md)
 - [Modal UI 사용 가이드 (팝업 / 바텀시트 / 스낵바)](UXUI/Modal_UI_Guidelines.md)
 - [UX/UI 참고 사이트 모음](./UXUI/helperSite.md)
+
+## 프로젝트 회고
+
+- [2026년 06월 08일](./Project/2026-06-08.md)
+- [2026년 06월 09일](./Project/2026-06-09.md)
